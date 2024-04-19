@@ -1,10 +1,10 @@
 "use client";
 import { useRef, useState } from "react";
 
-
 interface ProjectCardProps {
   title: string,
   text: string,
+ // icons: ProjectCardIcon[]
 }
  
 export const ProjectCard = (props: ProjectCardProps) => {
@@ -66,6 +66,7 @@ className="h-full relative max-w-lg overflow-hidden rounded-xl border border-sla
             stroke="currentColor"
             aria-hidden="true"
           />
+          
         </span>
         <h3 className="mb-2 font-medium tracking-tight text-white">{props.title}</h3>
         <p className="text-sm text-slate-400">
