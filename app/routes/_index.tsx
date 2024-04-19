@@ -60,7 +60,7 @@ export default function Index() {
           <div className="w-full md:w-1/3">
             <ProjectCard
               title="L-Systems"
-              text="Create drawings that mimic plant growth behavior! An implementation of the L-systems using JavaFX and turtle graphics drawing"
+              text="Create drawings that mimic plant growth behavior! An implementation of Lindenmeyer parallel rewriting systems using JavaFX and turtle graphics drawing"
             />
           </div>
           <div className="w-full md:w-1/3">
