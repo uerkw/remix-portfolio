@@ -1,3 +1,5 @@
+import { HighlightExperience } from "./HighlightExperience";
+
 interface ExperienceItemProps {
   company: string;
   title: string;
@@ -6,10 +8,14 @@ interface ExperienceItemProps {
 
 export const ExperienceItem = (props: ExperienceItemProps) => {
   return (
-    <li className="text-lg md:text-xl pb-4">
-      <span className="text-xl md:text-2xl font-bold pr-2">{props.company}</span>
-      <span className="md:tracking-wider">{props.title}</span>
-      <span className="flex">{props.timespan}</span>
-    </li>
+    <HighlightExperience>
+      <div className="flex flex-col">
+        <div className="text-xl md:text-2xl font-bold pr-2">
+          {props.company}
+        </div>
+        <div className="md:tracking-wider">{props.title}</div>
+        <div className="flex">{props.timespan}</div>
+      </div>
+    </HighlightExperience>
   );
 };
