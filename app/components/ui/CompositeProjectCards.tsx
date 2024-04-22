@@ -8,7 +8,7 @@ export const SolidProjectCard = () => {
         <ProjectCardDetails
           title="SolidJS Uploader"
           text="Bringing fine-grained reactivity to your S3 buckets. Manage and upload files from a convenient web app to any compatible storage provider"
-          github_url="https://github.com/uerkw/solid-uploader"
+          //   github_url="https://github.com/uerkw/solid-uploader"
         />
       </HighlightCard>
     </a>
@@ -22,7 +22,7 @@ export const HuffmanProjectCard = () => {
         <ProjectCardDetails
           title="Huffman Encoder"
           text="Implementation of Huffman encoding and compression. Works best with ASCII text for demonstration purposes"
-          github_url="https://github.com/uerkw/huffman-CPP"
+          //   github_url="https://github.com/uerkw/huffman-CPP"
         />
       </HighlightCard>
     </a>
@@ -36,7 +36,7 @@ export const LSystemsProjectCard = () => {
         <ProjectCardDetails
           title="L-Systems"
           text="Create drawings that mimic plant growth behavior! An implementation of Lindenmeyer parallel rewriting systems using JavaFX and turtle graphics drawing"
-          github_url="https://github.com/uerkw/javaLindenmeyer"
+          //   github_url="https://github.com/uerkw/javaLindenmeyer"
         />
       </HighlightCard>
     </a>

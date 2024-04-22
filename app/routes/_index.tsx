@@ -72,7 +72,7 @@ export default function Index() {
         </h1>
         <div className="flex flex-col items-center gap-4 pt-4">
           <ExperienceItem
-            company="Taazaa"
+            company="Taazaa Inc."
             title="SOFTWARE ENGINEER II"
             timespan="Mar 2023 - Oct 2023"
           />
